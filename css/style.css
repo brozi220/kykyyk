@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    
+}
+.header{
+    width: 100%;
+    float: left;
+    justify-content: space-around;
+    
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h2{
+    display: inline-block;
+    color: aqua;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+li{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+ul{
+    display: inline-block;
+}
+a{
+  color: aqua;
+    font-size: 12pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+    
+}
+.main{
+   width: 100%;
+   float: left;
+}
+.megabox{
+    width: 100%;
+    float: left;
+    
+}
+.text p{
+    font-size: 15pt;
+    text-align: center;
+}
+.text2 p{
+    font-size: 23pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+.ttt{
+    width: 65px;
+    border-bottom: 2px solid red;
+    margin: auto;
+}
+.bigbox{
+    display: flex;
+    width: 100%;
+    justify-content: space-around
+}
+.box{
+   width: 250px;
+   margin-top: 50px;
+}
+h3{
+    color: lightgray;
+    font-family: sans-serif;
+}
+.k1{
+    color: lightgray;
+    font-size: 8pt;
+    font-family: sans-serif;
+}
+
+.bigbox2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.box2{
+   width: 250px;
+   margin-top: 50px;
+}
+h3{
+    color: lightgray;
+    font-family: sans-serif;
+}
+.k1{
+    color: lightgray;
+    font-size: 8pt;
+    font-family: sans-serif;
+}
+.boxic{
+    margin-top: 50px;
+}
+.text3 p{
+    font-size: 15pt;
+    text-align: center;
+}
+.text4 p{
+    font-size: 23pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+.ddd{
+    width: 65px;
+    border-bottom: 2px solid red;
+    margin: auto;
+}
+
+.text5 p{
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 10px 400px 10px 400px;
+   
+}
+.megaboximg{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.begabox{
+    width: 280px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.img{
+    width: 355px;
+    height: 418px;
+    background-image: url(../img/homework-03.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .75s;
+    float: left;
+    
+}
+.img:hover{
+    background-image: linear-gradient(#e78182d1, #efd889a8), url(../img/homework-03.jpg);
+    box-shadow: 10px 10px 0px 0px #95e1b3;
+    transform: translate(-10px, -10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.begabox h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: : 25px;
+    margin-bottom: 10px
+}
+.begabox p{
+    color: grey;
+    font-family: sans-serif;
+}
+.boxsoc{
+    width: 255px;
+    height: 45px;
+    background: yellow;
+    display: none;
+    
+}
+.img:hover .boxsoc{
+    display: block;
+}
+.soc{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-right: 2px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rer{
+    border-right: none;
+}
+soc:hover{
+    background: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 481px) and (max-width: 768px){
+   .text5 p{
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 0; 
+    }
+    .megaboximg{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: 550px;
+    }
+    li{
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+    .bigbox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+    .bigbox2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    }
+    .img{
+    width: 355px;
+    height: 418px;
+    background-image: url(../img/homework-03.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: .75s;
+    float: left;
+    margin-top: 50px;
+}
+@media(min-width: 769px) and (max-width: 1279px){
+   .text5 p{
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 0px!important;
+    
+    }
+    .megaboximg{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: 550px;
+    }
+    
+}
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
